@@ -1,88 +1,88 @@
-* {
-	background: black;
-	font-family: "Slabo 27px", serif;
+body {
+	background-color: black;
+	font-family: "Playfair Display", serif;
+	color: white
 }
 
-h1 {
+.main {
+	height: 75%;
+}
+
+#barleft {
+	float: left;
+	color: white;
+	margin-top: 15%;
+	text-transform: uppercase;
+	text-indent: 5px;
+	font-family: "Nanum Myeongjo", serif;
+}
+
+#barright {
+	float: right;
+	text-align: right;
+	margin-top: 15%;
+	font-family: "Nanum Myeongjo", serif;
+}
+
+.jumbotron {
+	background-color: black;
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 21%;
+}
+
+#titletext {
 	font-size: 5em;
 	letter-spacing: .2em;
 	margin-top: 5px;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
-h3 {
+#pretitle {
 	margin-bottom: 5px;
+	letter-spacing: .1em;
+	font-size: 2em;
 }
 
-a {
+#discover {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: .2em;
+	font-size: 1.2em;
 	color: #ffecd2;
-	text-decoration: none;
+	font-family: "Nanum Myeongjo", serif;
 }
 
-img {
-	width: 26px;
-	padding: 5px;
-}
-
-hr.style-ten {
-	border-top: 1px dotted #8c8b8b;
-	border-bottom: 1px dotted #fff;
+#own {
+	width: .7em;
+	float: left;
+	padding-right: 100%;
+	font-family: "Nanum Myeongjo", serif;
 }
 
 hr.style-two {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
-#title {
-	color: white;
-	padding-top: 15%;
-	text-align: center;
-	font-family: "Playfair Display", serif;
-	font-style: italic;
-	letter-spacing: .2em;
+hr.style-ten {
+	border-top: 3px double #8c8b8b;
 }
 
-#barleft p a, #barleft p{
-	margin-left: 10px;
+i {
 	color: #ffecd2;
-	letter-spacing: .1em;
 }
 
-#barleft {
-	height: 100%;
-	position: fixed;
+a {
 	color: #ffecd2;
-	text-transform: uppercase;
-	font-size: .7em;
+	margin-right: 10%;
 }
-
-#barright {
-	float: right;
-	height: 100%;
-	width: 9%;
-	color: #ffecd2;
-	text-transform: uppercase;
-	font-size: .9em;
-}
-
-#header {
-	margin-top: 70px;
-}
-
-#titlehr {
-	width: 28%;
-}
-
-#discovermore{
-	font-style: normal;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
 
 #facebook {
-	
+	width: 25px;
 }
 
 #twitter {
@@ -97,11 +97,41 @@ hr.style-two {
 	width: 24px;
 }
 
-/*#sig {
-	font-size: 8px;
-	font-family: "Playfair Display", serif;
-	color: white;
-	text-align: center;
-	margin-bottom: 0;
-}*/
+#socialtext {
+	padding-right: 2%;
+}
 
+#arrow {
+	color: #ffecd2;
+}
+
+.thebottom {
+	padding-top: 2000px;
+	text-align: center;
+	color: white;
+	font-family: "Nanum Myeongjo", serif;
+	letter-spacing: .15em;
+	font-style: italic;
+}
+
+.meet {
+	margin-bottom: 1000px;
+}
+
+.Characters {
+	width: 40%;
+	padding: 20px;
+	border: 2px solid white;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	margin-bottom: 1000px;
+}
+
+
+.charname{
+	font-family: "Great Vibes", cursive;
+}
+
+.charlyric {
+	line-height: 1.3em;
+}
