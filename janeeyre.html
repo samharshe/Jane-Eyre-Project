@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html>
+<div class="main">
 <head>
-	<title>The Men of Jane Eyre</title>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<link rel="icon" href="https://images-na.ssl-images-amazon.com/images/M/MV5BNjU0Mjc0NzU3NF5BMl5BanBnXkFtZTcwMTU4OTkwNA@@._V1_UX182_CR0,0,182,268_AL_.jpg" type="image/png">
-	<link rel="stylesheet" type="text/css" href="janeeyre.css">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Playfair+Display|Slabo+27px" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Playfair+Display|Slabo+27px|Merriweather|Great+Vibes" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="eyreproject.css">
+	<title>The Men of Jane Eyre</title>
 </head>
 <body>
 
-<div id="barleft">
-	<p id="header">Own It</p>
-	<hr class="style-ten">
+<div class="col-xs-2" id="barleft">
+	<div>Own it</div>
+	<div><hr id="own" class="style-ten"></div>
+	<div id="ownlinks">
 	<p><a href="https://www.amazon.com/Jane-Eyre-Mia-Wasikowska/dp/B0053Q9DHW/ref=sr_1_3_twi_dvd_1?ie=UTF8&qid=1484691162&sr=8-3&keywords=Jane+Eyre+Movie">DVD</a></p>
 	<p><a href="https://www.amazon.com/Jane-Eyre-Region-B-Blu-ray/dp/B00979K7U8/ref=tmm_blu_swatch_0?_encoding=UTF8&qid=1484691162&sr=8-3">Blue-Ray</a></p>
 	<p><a href="https://itunes.apple.com/us/movie/jane-eyre/id1047790214">Itunes</a></p>
-	<p><a href="https://www.uphe.com/movies/jane-eyre">On Demand</a></p>
+	<p><a href="https://www.uphe.com/movies/jane-eyre">On Demand</a></p></div>
 </div>
 
-<div id="barright">
-	<p id="header">Social</p>
-	<hr class="style-ten">
+<div class="col-xs-7 jumbotron" id="title">
+	<div id="pretitle">The men of</div>	
+	<div id="titletext">Jane Eyre</div>
+	<div><hr class="style-two"></div>	
+	<div id="discover">Discover More</div>
+	<p><i class="fas fa-arrow-down" id="arrow"></i></p>
+</div>
+
+
+<div class="col-xs-2" id="barright">
+	<div id="socialtext">Social</div>
+	<div><hr id="social" class="style-ten"></div>
 	<table>
 		<tr><a href="https://www.facebook.com/JaneEyreMovie/"><img src="https://s3.amazonaws.com/freebiesupply/large/2x/facebook-logo-circle-white.png" id="facebook"></a></tr>
 		<tr><a href="https://twitter.com/justagoverness?lang=en"><img src="http://wearefunnygirls.com/wp-content/uploads/2016/11/twitter-white-clear2.png" id="twitter"></a></tr>
-		<tr><a href="https://www.youtube.com/watch?v=PsW3WPamuq8"><img src="http://www.wispa.org/portals/37/Images/youtube-WHITE.png?ver=2017-10-20-203832-950" id="youtube"></a></tr>
-		<tr><a href="https://www.instagram.com/charlottebronte.janeeyre/"><img src="http://library.austintexas.gov/sites/default/files/instagram-logo-white.png" id="instagram"></a></tr>
-	</table>
+		<tr><a href="https://www.youtube.com/watch?v=PsW3WPamuq8"><img src="http://www.wispa.org/
+		portals/37/Images/youtube-WHITE.png?ver=2017-10-20-203832-950" id="youtube"></a></tr>
+		<tr><a href="https://www.instagram.com/charlottebronte.janeeyre/"><img src="http://
+		library.austintexas.gov/sites/default/files/instagram-logo-white.png" id="instagram"></a></tr>	</table>
+</div>
 </div>
 
-<div id="title">
-	<h3>The men of</h3>
-	<h1>Jane Eyre</h1>
-	<hr class="style-two">
-	<p id="discovermore">Discover more</p>
-	<p><i class="fas fa-arrow-down"></i></p>
+<div class="thebottom">
+	<div class="container meet"><h1>
+	The Characters...</h1>
+</div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"> </script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-crossorigin="anonymous"></script>
+<div class="Characters" id="St">
+	<h1 class="charname">St. John</h1>
+	<h3 class="charlyric">"I got fake people showin' fake love to me." — Drake </h3>
+</div>
 
-<!-- <p id="sig">A Sam Harshe Production</p> -->
+
+<div class="Characters" id="Brocklehurst">
+	<h1 class="charname">Mr. Brocklehurst</h1>
+	<h3 class="charlyric">"I got fake people showin' fake love to me." — Drake </h3>
+</div>
+
+<div class="Characters" id="Rochester">
+	<h1 class="charname">Mr. Rochester</h1>
+	<h3 class="charlyric">"I got fake people showin' fake love to me." — Drake </h3>
+</div>
+
+<div class="Characters" id="Reed">
+	<h1 class="charname">John Reed</h1>
+	<h3 class="charlyric">"Let me start off this letter saying I don't like you
+	Scared of you but I will fight you." — Kendrick Lamar </h3>
+</div>
+
+
+</script>
 </body>
 </html>
