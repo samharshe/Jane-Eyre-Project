@@ -115,13 +115,13 @@ a {
 }
 
 .meet {
-	margin-bottom: 1000px;
+	margin-bottom: 1200px;
 }
 
 .Characters {
 	width: 40%;
 	padding: 20px;
-	border: 2px solid white;
+	border: 2px double white;
 	margin: 0 auto 0 auto;
 	text-align: center;
 	margin-bottom: 1000px;
@@ -134,4 +134,46 @@ a {
 
 .charlyric {
 	line-height: 1.3em;
+	font-size: 25px;
+	font-family: "Nanum Myeongjo", serif;
+}
+
+img {
+	width: 500px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+.lineup {
+	font-family: "Nanum Myeongjo", serif;
+	font-size: 20px;
+	line-height: .5em;
+
+}
+
+
+.nextchar {
+	padding-top: 20px;
+}
+
+a:hover {
+	color: white;
+}
+
+
+#kanye {
+	padding-top: 18px;
+	width: 50%;
+}
+
+.description {
+	font-family: "Nanum Myeongjo", serif;
+	font-size: 1.7em;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid white;
 }
